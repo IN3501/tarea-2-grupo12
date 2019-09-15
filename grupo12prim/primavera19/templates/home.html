@@ -1,0 +1,212 @@
+{% extends 'navbar.html' %}
+
+{% block title %}
+Carro
+{% endblock title %}
+
+{% block content %}
+
+
+<div id="descripcion" class="container">
+    
+
+   <!DOCTYPE html>
+<html>
+   <head>
+      <title>HTML img Tag</title>
+   <style>
+
+    *{
+        box-sizing:border-box;
+
+    }
+    body{
+      margin:0;
+      background:white;
+
+
+    }
+    nav{
+      backround:#594848;
+      width:100%;
+      overflow:auto;
+    }
+
+    ul{
+      margin:0;
+      padding:0;
+      list-style:none;
+    }
+    li{
+        float:left;
+
+    }
+    nav a{
+      width:120px;
+      display:block;
+      text-decoration:none;
+      text-align:center;
+      background:#594848;
+      font-size:17px;
+      color:white;
+      padding:20px 10px;
+      font-family:Arial;
+
+    }
+
+    nav a:hover{
+        background:yellow;
+        color:yellow;
+      
+    }
+
+    .container{
+      max-width:1200px;
+      margin:auto;
+      background:#f2f2f2;
+      overlflow:auto;
+
+
+
+    }
+
+    .gallery{
+      margin.5px;
+      border:1px solid #ccc;
+      float:left;
+      width:390px;
+
+
+
+    }
+    .gallery img{
+      width:100%;
+      height:auto;
+
+
+    }
+
+    .desc{
+      padding:15px;
+      text-allign:center;
+
+
+    }
+
+    
+
+
+
+
+    
+   </style>
+
+   </head>
+
+   <body>
+   
+
+  <form action="/mostrar_resultado4" method="POST" autocomplete="off">  {% csrf_token %}
+
+   <div id="descripcion" class="container">
+
+	<br>
+
+    <h1>Carro</h1>
+
+
+     Seleccionar 
+
+	<br>
+
+  
+  
+
+  <form action="#" autocomplete="off">
+    <div class="form-group">
+
+    <div class="form-check form-check-inline" >
+      <input type="checkbox" class="form-check-input" id="exampleCheck1" name="inputCheck1" value="Manzana">
+      <label class="form-check-label" for="exampleCheck1">Manzana</label>
+    </div>
+
+
+    <div class="form-check form-check-inline" >
+      <input type="checkbox" class="form-check-input" id="exampleCheck2" name="inputCheck1" value="Tomate">
+      <label class="form-check-label" for="exampleCheck2">Tomate</label>
+    </div>
+
+    <div class="form-check form-check-inline" >
+      <input type="checkbox" class="form-check-input" id="exampleCheck3" name="inputCheck1" value="Lechuga">
+      <label class="form-check-label" for="exampleChec3">Lechuga</label>
+    </div>
+
+    
+
+    <div class="form-check form-check-inline" >
+      <input type="checkbox" class="form-check-input" id="exampleCheck3" name="inputCheck1" value="Cebolla">
+      <label class="form-check-label" for="exampleChec3">Cebolla</label>
+    </div>
+    </div>
+
+     <div class="form-check form-check-inline" >
+      <input type="checkbox" class="form-check-input" id="exampleCheck3" name="inputCheck1" value="Palta">
+      <label class="form-check-label" for="exampleChec3">Palta</label>
+    </div>
+
+     <div class="form-check form-check-inline" >
+      <input type="checkbox" class="form-check-input" id="exampleCheck3" name="inputCheck1" value="Apio">
+      <label class="form-check-label" for="exampleChec3">Apio</label>
+    </div>
+
+    <div class="form-check form-check-inline" >
+      <input type="checkbox" class="form-check-input" id="exampleCheck3" name="inputCheck1" value="Naranja">
+      <label class="form-check-label" for="exampleChec3">Naranja</label>
+    </div>
+
+    <div class="form-check form-check-inline" >
+      <input type="checkbox" class="form-check-input" id="exampleCheck3" name="inputCheck1" value="Zanahoria">
+      <label class="form-check-label" for="exampleChec3">Zanahoria</label>
+    </div>
+
+     <div class="form-check form-check-inline" >
+      <input type="checkbox" class="form-check-input" id="exampleCheck3" name="inputCheck1" value="Plátano">
+      <label class="form-check-label" for="exampleChec3">Plátano</label>
+    </div>
+
+    </div>
+
+
+  
+
+
+
+
+    <br>
+
+
+    <div class="form-group">
+    <button type="submit" class="btn btn-primary">Agregar al carro</button>
+    </div>
+
+
+
+
+  </form>
+       
+</div>
+
+
+
+
+
+   </body>  
+  
+
+</html>
+
+
+{% endblock content %}
+
+
+

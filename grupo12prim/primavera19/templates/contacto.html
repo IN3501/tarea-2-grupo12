@@ -1,0 +1,183 @@
+
+{% extends 'navbar.html' %}
+
+{% block title %}
+Contacto
+{% endblock title %}
+
+
+
+{% block content %}
+
+<div id="descripcion" class="container">
+
+  <br>
+    <h1>Contacto</h1>
+
+   <!DOCTYPE html>
+<html>
+   <head>
+      <title>HTML img Tag</title>
+   <style>
+
+    *{
+        box-sizing:border-box;
+
+    }
+    body{
+      margin:0;
+      background:white;
+
+
+    }
+    nav{
+      backround:#594848;
+      width:100%;
+      overflow:auto;
+    }
+
+    ul{
+      margin:0;
+      padding:0;
+      list-style:none;
+    }
+    li{
+        float:left;
+
+    }
+    nav a{
+      width:120px;
+      display:block;
+      text-decoration:none;
+      text-align:center;
+      background:#594848;
+      font-size:17px;
+      color:white;
+      padding:20px 10px;
+      font-family:Arial;
+
+    }
+
+    nav a:hover{
+        background:white;
+        color:white;
+      
+    }
+
+    .container{
+      max-width:1200px;
+      margin:auto;
+      background:#f2f2f2;
+      overlflow:auto;
+
+
+
+    }
+
+    .gallery{
+      margin.5px;
+      border:1px solid #ccc;
+      float:left;
+      width:390px;
+
+
+
+    }
+    .gallery img{
+      width:100%;
+      height:auto;
+
+
+    }
+
+    .desc{
+      padding:15px;
+      text-allign:center;
+
+
+    }
+
+    
+
+
+
+
+    
+   </style>
+
+   </head>
+
+   <body>
+   
+   
+	<br>
+
+
+    
+
+		<div id="descripcion" class="container">
+			<h4>Email</h4>
+		laferiaexpress19@gmail.com
+
+		</div>
+
+
+		<br>
+
+		<div id="descripcion" class="container">
+
+			<h4>Número de Teléfono</h4>
+			+56 9 5526 2341
+		</div>
+
+    <br>
+
+  <form action="/mostrar_resultado3" method="POST" autocomplete="off">  {% csrf_token %}
+
+  <div id="descripcion" class="container">
+
+    <h4>Atención al cliente</h4>
+
+     <br>
+      
+
+    <form action="#" autocomplete="off">
+
+
+  <div class="form-group">
+      <label for="exampleInputText1">
+      <input type="text" class="form-control" id="exampleText" placeholder="Usuario" name="inputText">
+    </div>
+
+
+    <div class="form-group">
+      <label for="exampleInputPassword1">
+      <input type="password" class="form-control" id="examplePassword" placeholder="Contraseña" name="inputPassword">
+    </div>
+ 
+
+  <div class="form-group">
+      <label for="exampleFormControlTextarea">
+      <textarea class="form-control" id="exampleFormControlTextarea" rows="3"
+    name="inputTextArea"></textarea> 
+  </div>
+
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </div> 
+
+
+  </form>
+
+  </div>
+
+   </body>  
+  
+
+</html>
+
+
+
+
+{% endblock content %}
+
